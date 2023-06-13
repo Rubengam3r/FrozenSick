@@ -98,5 +98,5 @@
   },
    "name": "frozen-sick",
     "minimumCoreVersion": "10",
-    "compatibleCoreVersion": "11",
+    "compatibleCoreVersion": "11"
 }
