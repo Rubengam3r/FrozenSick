@@ -4,10 +4,10 @@
   "title": "Frozen Sick",
   "description": "This is an adventure set in the world of Critical Role on the continent of Wildemount. Originally designed to take characters from 1st to 3rd level.",
   "version": "1.0.0",
-  "minimumCoreVersion": 10",
+  "minimumCoreVersion": "10",
   "compatibleCoreVersion": "11",
   "compatibility": {
-    "minimum": 10",
+    "minimum": "10",
     "verified": "11",
     "maximum": "11"
   },
