@@ -1,16 +1,7 @@
 {
-  "id": "frozen-sick",
-  "name": "frozen-sick",
   "title": "Frozen Sick",
   "description": "This is an adventure set in the world of Critical Role on the continent of Wildemount. Originally designed to take characters from 1st to 3rd level.",
   "version": "1.0.1",
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "11",
-  "compatibility": {
-    "minimum": "10",
-    "verified": "11",
-    "maximum": "11"
-  },
   "author": "Rubengam3r",
   "authors": [
     {
@@ -99,5 +90,13 @@
   "url": "https://github.com/Rubengam3r/FrozenSick",
   "manifest": "https://github.com/Rubengam3r/FrozenSick/release/latest/downloads/module.json",
   "download": "",
-  "manifestPlusVersion": "1.2.0"
+   "id": "frozen-sick",
+   "compatibility": {
+    "minimum": "10",
+    "verified": "11",
+    "maximum": "11"
+  },
+   "name": "frozen-sick",
+    "minimumCoreVersion": "10",
+    "compatibleCoreVersion": "11",
 }
