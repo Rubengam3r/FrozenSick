@@ -89,7 +89,7 @@
   },
   "url": "https://github.com/Rubengam3r/FrozenSick",
   "manifest": "https://github.com/Rubengam3r/FrozenSick/release/latest/downloads/module.json",
-  "download": "",
+  "download": "https://github.com/Rubengam3r/FrozenSick/archive/1.0.1.zip",
    "id": "frozen-sick",
    "compatibility": {
     "minimum": "10",
