@@ -1,0 +1,103 @@
+{
+  "id": "frozen-sick",
+  "name": "frozen-sick",
+  "title": "Frozen Sick",
+  "description": "This is an adventure set in the world of Critical Role on the continent of Wildemount. Originally designed to take characters from 1st to 3rd level.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "author": "Rubengam3r",
+  "authors": [
+    {
+      "name": "Rubengam3r"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "Frozen Sick",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "cards",
+      "label": "Frozen Sick",
+      "path": "/packs/cards.db",
+      "entity": "Cards",
+      "type": "Cards"
+    },
+    {
+      "name": "items",
+      "label": "Frozen Sick",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "journals",
+      "label": "Frozen Sick",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "macros",
+      "label": "Frozen Sick",
+      "path": "/packs/macros.db",
+      "entity": "Macro",
+      "type": "Macro"
+    },
+    {
+      "name": "maps",
+      "label": "Frozen Sick",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "playlists",
+      "label": "Frozen Sick",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist",
+      "type": "Playlist"
+    },
+    {
+      "name": "rolltables",
+      "label": "Frozen Sick",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable",
+      "type": "RollTable"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
+      }
+    ]
+  },
+  "url": "https://github.com/Rubengam3r/FrozenSick",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
