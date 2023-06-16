@@ -70,14 +70,17 @@
   "esmodules": [
     "./scripts/init.js"
   ],
-  "dependencies": [
-    {
-      "name": "scene-packer",
-      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
-      "type": "module"
-    }
-  ],
+  
   "relationships": {
+	  "systems": [
+	  {
+		  "id": "dnd5e",
+		  "type": "system",
+		  "compatibility":{
+			  "minimum": "2.2.1"
+		  }
+	  }
+	  ],
     "requires": [
       {
         "id": "scene-packer",
