@@ -86,6 +86,10 @@
         "id": "scene-packer",
         "type": "module",
         "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
+      },
+      {
+        "id": "monks-enhanced-journal",
+       "manifest": "https://github.com/ironmonk88/monks-enhanced-journal/releases/latest/download/module.json"
       }
     ]
   },
